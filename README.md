@@ -128,16 +128,3 @@ flowchart TD
   E --> E2[deck]
   E2 --> E21[Capgemini_Text_Analysis.pdf]
 ---
-
-👥 Authors
-
-Abhigna Valambatla
-
-Gokul Varatharasan
-
-Sai Goutham Manukonda
-
-📜 License
-
-This project is licensed under the MIT License.
-
