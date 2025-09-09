@@ -106,30 +106,27 @@ We used **text mining (unigrams, bigrams, trigrams)**, **topic modeling (LDA)**,
 
 ```mermaid
 flowchart TD
-    A[capgemini-text-analysis] --> B[data/]
-    A --> C[notebooks/]
-    A --> D[src/]
-    A --> E[reports/]
-    A --> F[README.md]
-    A --> G[LICENSE]
-    A --> H[.gitignore]
+  A[capgemini-text-analysis] --> B[data]
+  A --> C[notebooks]
+  A --> D[src]
+  A --> E[reports]
+  A --> F[README.md]
+  A --> G[LICENSE]
+  A --> H[.gitignore]
 
-    B --> B1[sample/]
-    B --> B2[raw/]
+  B --> B1[sample]
+  B --> B2[raw]
 
-    C --> C1[capgemini_text_analysis.Rmd]
+  C --> C1[capgemini_text_analysis.Rmd]
 
-    D --> D1[cleaning.R]
-    D --> D2[eda.R]
-    D --> D3[topic_modeling.R]
-    D --> D4[sentiment_analysis.R]
+  D --> D1[cleaning.R]
+  D --> D2[eda.R]
+  D --> D3[topic_modeling.R]
+  D --> D4[sentiment_analysis.R]
 
-    E --> E1[figures/]
-    E --> E2[deck/]
-    E2 --> E21[Capgemini_Text_Analysis.pdf]
-
-
-
+  E --> E1[figures]
+  E --> E2[deck]
+  E2 --> E21[Capgemini_Text_Analysis.pdf]
 ---
 
 👥 Authors
