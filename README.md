@@ -104,6 +104,7 @@ We used **text mining (unigrams, bigrams, trigrams)**, **topic modeling (LDA)**,
 
 ## 📂 Repository Structure
 capgemini-text-analysis/
+
 ├── data/
 
 │ ├── sample/ # small sample for demo
@@ -115,17 +116,25 @@ capgemini-text-analysis/
 
 ├── src/
 │ ├── cleaning.R
+
 │ ├── eda.R
+
 │ ├── topic_modeling.R
+
 │ └── sentiment_analysis.R
 
 ├── reports/
+
 │ ├── figures/
+
 │ └── deck/
+
 │ └── Capgemini_Text_Analysis.pdf
 
 ├── README.md
+
 ├── LICENSE
+
 └── .gitignore
 
 
