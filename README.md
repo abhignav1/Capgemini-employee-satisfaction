@@ -103,39 +103,31 @@ We used **text mining (unigrams, bigrams, trigrams)**, **topic modeling (LDA)**,
 ---
 
 ## 📂 Repository Structure
-capgemini-text-analysis/
 
-├── data/
+```mermaid
+flowchart TD
+    A[capgemini-text-analysis] --> B[data/]
+    A --> C[notebooks/]
+    A --> D[src/]
+    A --> E[reports/]
+    A --> F[README.md]
+    A --> G[LICENSE]
+    A --> H[.gitignore]
 
-│ ├── sample/ # small sample for demo
+    B --> B1[sample/]
+    B --> B2[raw/]
 
-│ └── raw/ # full dataset (not committed)
+    C --> C1[capgemini_text_analysis.Rmd]
 
-├── notebooks/
-│ └── capgemini_text_analysis.Rmd
+    D --> D1[cleaning.R]
+    D --> D2[eda.R]
+    D --> D3[topic_modeling.R]
+    D --> D4[sentiment_analysis.R]
 
-├── src/
-│ ├── cleaning.R
+    E --> E1[figures/]
+    E --> E2[deck/]
+    E2 --> E21[Capgemini_Text_Analysis.pdf]
 
-│ ├── eda.R
-
-│ ├── topic_modeling.R
-
-│ └── sentiment_analysis.R
-
-├── reports/
-
-│ ├── figures/
-
-│ └── deck/
-
-│ └── Capgemini_Text_Analysis.pdf
-
-├── README.md
-
-├── LICENSE
-
-└── .gitignore
 
 
 ---
