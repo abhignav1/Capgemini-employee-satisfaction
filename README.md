@@ -125,4 +125,12 @@ flowchart TD
   E --> E2[deck]
   E2 --> E21[Capgemini_Text_Analysis.pdf]
 ```
+📜 License
 
+This project is licensed under the MIT License.
+
+🙏 Acknowledgments
+
+Faculty and peers for guidance.
+
+Open-source R community for tools and packages.
