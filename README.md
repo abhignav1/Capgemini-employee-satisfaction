@@ -97,12 +97,9 @@ We used **text mining (unigrams, bigrams, trigrams)**, **topic modeling (LDA)**,
 ## 🛠️ Tools & Technologies
 - **Language:** R (primary).  
 - **Key Packages:** `tidyverse`, `tidytext`, `textclean`, `tm`, `topicmodels`, `ldatuning`, `syuzhet`, `ggplot2`, `corrplot`, `wordcloud`.  
-- **Optional Visuals:** `LDAvis`, `igraph`, `ggraph`.  
-- **(Optional Python Alternative):** `pandas`, `scikit-learn`, `gensim`, `nltk`, `spacy`.
-
 ---
 
-## 📂 Repository Structure (Visual)
+## 📂 Repository Structure 
 
 ```mermaid
 flowchart TD
@@ -127,4 +124,5 @@ flowchart TD
   E --> E1[figures]
   E --> E2[deck]
   E2 --> E21[Capgemini_Text_Analysis.pdf]
+```
 
