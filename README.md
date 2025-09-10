@@ -1,4 +1,4 @@
-# Capgemini-employee-satisfaction
+# Capgemini-Employee-Satisfaction
 # Text Analysis on Capgemini Employee Satisfaction
 
 ## 📌 Project Overview
@@ -125,12 +125,14 @@ flowchart TD
   E --> E2[deck]
   E2 --> E21[Capgemini_Text_Analysis.pdf]
 ```
+---
 ## 📜 License
 
-This project is licensed under the MIT License.
-
+- This project is licensed under the MIT License.
+---
 ## 🙏 Acknowledgments
 
-Faculty and peers for guidance.
+- Faculty and peers for guidance.
 
-Open-source R community for tools and packages.
+- Open-source R community for tools and packages.
+---
