@@ -102,8 +102,6 @@ We used **text mining (unigrams, bigrams, trigrams)**, **topic modeling (LDA)**,
 
 ---
 
-## 📂 Repository Structure
-
 ## 📂 Repository Structure (Visual)
 
 ```mermaid
@@ -129,3 +127,4 @@ flowchart TD
   E --> E1[figures]
   E --> E2[deck]
   E2 --> E21[Capgemini_Text_Analysis.pdf]
+
